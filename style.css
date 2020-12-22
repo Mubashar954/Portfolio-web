@@ -12,3 +12,63 @@
     clear: both;
     display: table;
 }
+html{
+    font-family: 'Abel', sans-serif;
+    font-weight: 100;
+}
+body{
+    width: 60%;
+    margin: auto;
+    background-image: url(images\BG.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#im{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #17191A;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #17191A;
+}
+h5{
+    font-size: 40px;
+    font-weight: 400;
+    color: #17191A;
+}
+p{
+    color: #8F9EA5;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.contactMe, .navicons{
+    flex: 1;
+}
+.navicons{
+    text-align: right;
+}
+.navicons, .contactMe a, .contactMe img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.contactMe a{
+    color: #027BFF;
+    text-decoration: none;
+    
+}
+.contactMe img{
+    margin-right: 10px;
+}
