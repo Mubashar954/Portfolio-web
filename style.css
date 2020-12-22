@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    font-size: 100%;
+    background:transparent;
+    vertical-align: baseline;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
