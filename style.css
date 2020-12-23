@@ -119,24 +119,110 @@ ul{
 }
 
 /* -----Project 1------ */
-.Project1{
+.project1{
     width: 100%;
     position: relative;
     margin-bottom: 20em;
 }
-.Project1 > .projectText{
+.project1 > .projectText{
     position: absolute;
-    top: 85;
+    top:0px;
 }
-.Project1 > .projectText > .underline{
+.project1 > .projectText > .underline{
     display: block;
-    background-color: blue;
+    background-color: rgb(14, 166, 236);
     height: 3px;
     width: 61px;
     margin-top: 5px;
 }
-.Project1 > .projectImage{
-      width: 85%;
-      float: right;
-      
+.project1 > .projectImage{
+    width: 80%;
+    float: right;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+.project1 ul{
+    position: absolute;
+    bottom: 0;
+    right: 81%;
+}
+.project1 ul li{
+    margin-top: 20px;
+}
+#git{
+    height:30px;
+    width: auto;
+    
+}
+
+/* -----Project 2------ */
+
+.project2{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+.project2 > .projectText{
+    position: absolute;
+    top: 85;
+    right: 0;
+    text-align: right;
+
+}
+.project2 > .projectText > .underline{
+    display: block;
+    background-color: rgb(14, 166, 236);
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+    float: right;
+}
+.project2 > .projectImage{
+    width: 85%;
+    float: left;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    }
+.project2 ul{
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+}
+.project2 ul li{
+    margin-top: 20px;
+}
+.project2 ul li{
+    margin-top: 20px;
+}
+span{
+    color: white;
+}
+ 
+.project1 a, .project2 a {
+    text-decoration: none;
+    color: #027BFF;
+}
+
+/* -----Footer------ */
+.footer{
+    background-image: url("images/Gt_blue.png" );
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 320px;
+    padding-bottom: 170px;
+    text-align: center;
+    opacity: 50%;
+}
+.footer a{
+    stop-color: #027BFF;
+    text-decoration: none;
+}
+.underlineSmall{
+    display: block;
+    height: 3px;
+    width: 41px;
+    margin: 5px auto auto;
+    background-color:#027BFF;
 }
