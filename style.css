@@ -119,3 +119,24 @@ ul{
 }
 
 /* -----Project 1------ */
+.Project1{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+.Project1 > .projectText{
+    position: absolute;
+    top: 85;
+}
+.Project1 > .projectText > .underline{
+    display: block;
+    background-color: blue;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+.Project1 > .projectImage{
+      width: 85%;
+      float: right;
+      
+}
